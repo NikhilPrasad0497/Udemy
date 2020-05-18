@@ -15,3 +15,4 @@ var Person = function(name,yearOfBirth,job){
 
 var ashu = new Person('Ashu', 1996, 'MBA');
 console.log(ashu);
+// test 1
