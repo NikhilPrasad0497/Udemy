@@ -64,3 +64,19 @@ Object Inheritance and Prototypes: -
 2. The prototype property of an Object is where we put methods and properties thet we want other objects to inherit.
 3. The constructor's prototype property is not the prototypeof the constructor itself, it's the prototype of all instances that are created through it.
 4. When a certain method (or property) is called, the search starts in the object itself, and if it cannot be found, the search moves to the object's prototype. This continues untill methods is found : Prototype Chain.
+
+Primitives VS Objects 
+in case of primitives the copy of a variable is created.
+in case of objects copy is not created instead a reference is created to same object.
+
+First Class Function:
+1. A function is an instance of the object type.
+2. A function behaves like any other object.
+3. We can store functions in a variable.
+4. We can pass a function as an argument to another function.
+5. We can return a function from a function.
+
+
+
+
+// Learn React by Stephen Grider(Udemy)
